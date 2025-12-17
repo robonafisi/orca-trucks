@@ -284,7 +284,7 @@ export default function App() {
           
             <Link href={destinationUrl1}>
             <button className="px-8 py-4 rounded-xl font-bold text-lg text-slate-700 border border-slate-200 hover:bg-slate-50 transition hover:border-slate-300">
-              Book Demo
+              Learn More
             </button>
             </Link>
           </div>
@@ -367,7 +367,7 @@ export default function App() {
                 <h2 className="text-blue-600 font-bold tracking-wide uppercase text-sm mb-3">The Hardware</h2>
                 <h3 className="text-4xl font-bold text-slate-900 mb-6">Meet Orca Sense. <br/>Install in minutes, save time and money for years.</h3>
                 <p className="text-slate-600 text-lg mb-6">
-                  Our sensor has water proof housing and uses ultra low power, making it easy to install, maintain, and extremely safe. Our sensors attach to the bottom of any fuel tank without drilling. Ruggedized for the harshest road conditions.
+                  Our sensor has a water proof housing and uses ultra low power, making it easy to install, maintain, and extremely safe. Our sensors attach to the top of any fuel tank and can be installed in minutes. Ruggedized for the harshest road conditions.
                 </p>
               </div>
               
