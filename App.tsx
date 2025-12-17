@@ -315,10 +315,24 @@ export default function App() {
       <section id="solutions" className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
-            <h2 className="text-blue-600 font-bold tracking-wide uppercase text-sm mb-3">Our Solutions</h2>
+            <h2 className="text-blue-600 font-bold tracking-wide uppercase text-lg mb-3">Our Solutions</h2>
             <h3 className="text-4xl font-bold text-slate-900 mb-4">Everything you need to run an efficient fleet</h3>
-            <p className="text-slate-600 max-w-2xl mx-auto text-lg">We combine cutting-edge hardware with powerful software to give you complete visibility over your most expensive cost center.</p>
+            <p className="text-slate-600 max-w-2xl mx-auto text-lg">We combine cutting-edge hardware, extensive testing, and powerful software to give you complete visibility over your most expensive cost center.</p>
           </div>
+
+         <div className="flex flex-col items-center mb-16">
+          <div className="max-w-4xl w-full">
+            <img 
+              src="/prototype.jpg" 
+              alt="Orca Sensor Laboratory Testing" 
+              className="rounded-2xl shadow-xl w-full h-82 object-cover border border-slate-200"
+            />
+            {/* The Subtitle */}
+            <p className="mt-4 text-center text-slate-500 text-sm italic">
+              Fig 1.1: High-precision testing bed to ensure sensor accuracy in turbulant flow.
+            </p>
+          </div>
+        </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -364,7 +378,7 @@ export default function App() {
             </div>
             <div className="lg:w-1/2 space-y-8">
               <div>
-                <h2 className="text-blue-600 font-bold tracking-wide uppercase text-sm mb-3">The Hardware</h2>
+                <h2 className="text-blue-600 font-bold tracking-wide uppercase text-lg mb-3">The Hardware</h2>
                 <h3 className="text-4xl font-bold text-slate-900 mb-6">Meet Orca Sense. <br/>Install in minutes, save time and money for years.</h3>
                 <p className="text-slate-600 text-lg mb-6">
                   Our sensor has a water proof housing and uses ultra low power, making it easy to install, maintain, and extremely safe. Our sensors attach to the top of any fuel tank and can be installed in minutes. Ruggedized for the harshest road conditions.
@@ -396,7 +410,7 @@ export default function App() {
       <section id="pricing" className="py-24 bg-orca-900 text-white">
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center mb-16">
-            <h2 className="text-blue-400 font-bold tracking-wide uppercase text-sm mb-3">Pricing</h2>
+            <h2 className="text-blue-400 font-bold tracking-wide uppercase text-lg mb-3">Pricing</h2>
             <h3 className="text-4xl font-bold text-white mb-4">Simple, transparent pricing</h3>
             <p className="text-slate-400 max-w-xl mx-auto">No hidden fees. Pause or cancel anytime. Hardware is included free when you choose an annual plan.</p>
           </div>
