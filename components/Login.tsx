@@ -37,7 +37,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
             className="h-24 w-24 rounded-full object-contain bg-slate-50 border border-slate-100 shadow-md" 
           />
           <h1 className="text-3xl font-bold text-slate-900 mt-4">Fleet Login</h1>
-          <p className="text-slate-500 mt-2">Access your Orca Trucks Dashboard</p>
+          <p className="text-slate-500 mt-2">Access your Orca Tech Dashboard</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">

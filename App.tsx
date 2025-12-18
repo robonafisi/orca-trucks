@@ -150,7 +150,7 @@ export default function App() {
               className="h-24 w-24 rounded-full object-contain bg-slate-50 border border-slate-100 shadow-md" 
             />
             <h1 className="text-3xl font-bold text-slate-900 mt-4">Fleet Login</h1>
-            <p className="text-slate-500 mt-2">Access your Orca Trucks Dashboard</p>
+            <p className="text-slate-500 mt-2">Access your Orca Tech Dashboard</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -238,7 +238,7 @@ export default function App() {
               className="h-24 w-24 rounded-full object-contain bg-slate-50 border border-slate-100 shadow-sm" 
             />
             <div className="text-3xl font-black tracking-tighter text-slate-900 cursor-default select-none">
-              Orca Trucks
+              Orca Tech
             </div>
           </div>
 
@@ -502,7 +502,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2 grayscale opacity-70 hover:opacity-100 transition">
              <img src={LOGO_URL} alt="Orca" className="h-8 w-8 rounded-full" />
-             <span className="font-bold text-black">ORCA Trucks</span>
+             <span className="font-bold text-black">ORCA Tech</span>
           </div>
           <div className="flex gap-8 text-sm font-medium">
             <a href="https://cal.com/orca-trucks/30min" className="hover:text-white transition">Contact</a>
@@ -521,7 +521,7 @@ export default function App() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2 cursor-pointer" onClick={handleLogout}> {/* Changed to handleLogout */}
             <img src={LOGO_URL} alt="Orca" className="h-10 w-10 rounded-full border border-slate-200" />
-            <span className="font-bold text-orca-900 text-xl tracking-tight hidden md:block">Orca Trucks</span>
+            <span className="font-bold text-orca-900 text-xl tracking-tight hidden md:block">Orca Tech</span>
           </div>
           <div className="h-6 w-px bg-slate-200 mx-2 hidden md:block"></div>
           <h1 className="text-slate-500 font-medium hidden md:block">Fleet Dashboard</h1>
