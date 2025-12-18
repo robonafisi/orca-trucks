@@ -234,7 +234,7 @@ export default function App() {
           <div className="flex items-center gap-4">
             <img 
               src={LOGO_URL} 
-              alt="Orca Cargo Logo" 
+              alt="Orca Tech Logo" 
               className="h-24 w-24 rounded-full object-contain bg-slate-50 border border-slate-100 shadow-sm" 
             />
             <div className="text-3xl font-black tracking-tighter text-slate-900 cursor-default select-none">
